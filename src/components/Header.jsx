@@ -64,6 +64,11 @@ export default class Example extends React.Component {
                 <NavItem>
                   <NavLink to="/contact">Get Started</NavLink>
                 </NavItem>
+                <button className="button-login btn">
+                  <NavLink className="nav-button" to="/Login">
+                    Login
+                  </NavLink>
+                </button>
               </Nav>
             </Collapse>
           </Navbar>
