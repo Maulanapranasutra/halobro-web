@@ -1,3 +1,6 @@
+/* eslint-disable react/no-unescaped-entities */
+/* eslint-disable react/style-prop-object */
+/* eslint-disable react/prefer-stateless-function */
 import React, { Component } from 'react';
 
 class HomeCards extends Component {
@@ -9,14 +12,56 @@ class HomeCards extends Component {
             <div className="row">
               <div
                 className="card text-white bg-warning mb-3"
-                style="max-width: 18rem;"
+                style={{ maxWidth: '18rem', marginLeft: '200px' }}
               >
-                <div className="card-header">Header</div>
-                <div className="card-body">
-                  <h5 className="card-title">Warning card title</h5>
+                <div className="card-body body-kun">
+                  <img
+                    className="icon-card"
+                    src="../../public/img/home/channel.png"
+                    alt=""
+                  />
+                  <h5 className="card-title title-kun">Omni-Channel</h5>
                   <p className="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
+                    halobro unify ail channels owned by bussines or
+                    organizations. All messaging from those channels will be
+                    seamlessly-presented in a single window
+                  </p>
+                </div>
+              </div>
+              <div
+                className="card text-white bg-danger mb-3"
+                style={{ maxWidth: '18rem', marginLeft: '200px' }}
+              >
+                <div className="card-body body-mer">
+                  <img
+                    className="icon-card2"
+                    src="../../public/img/home/hand.png"
+                    alt=""
+                  />
+                  <h5 className="card-title title-mer">Multi-Agent</h5>
+                  <p className="card-text-mer">
+                    HaloBro enables teamwork with multiple agents handling the
+                    real time communication from numerous channels concurrently
+                  </p>
+                </div>
+              </div>
+              <div
+                className="card text-white bg-primary mb-3"
+                style={{ maxWidth: '18rem', marginLeft: '200px' }}
+              >
+                <div className="card-body body-bir">
+                  <img
+                    className="icon-card3"
+                    src="../../public/img/home/analytic.png"
+                    alt=""
+                  />
+                  <h5 className="card-title title-bir">
+                    Analytics and Machine Learning
+                  </h5>
+                  <p className="card-text-bir">
+                    Update and tag the most accurate profile information for
+                    every individual customer. Real time quality check on the
+                    interactions.
                   </p>
                 </div>
               </div>

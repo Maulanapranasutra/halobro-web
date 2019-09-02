@@ -1,18 +1,38 @@
 .card-text {
-  width: 651px;
-  height: 49px;
+  width: 280px;
+  height: 105px;
   object-fit: contain;
   font-family: Poppins;
-  font-size: 35px;
+  color: black;
   font-weight: bold;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.51;
-  letter-spacing: normal;
   text-align: center;
-  color: #1a1919;
-  margin-left: 218px;
-  margin-top: 38px;
+  width: 318px;
+  margin-left: 23px;
+}
+
+.card-text-mer {
+  width: 280px;
+  height: 105px;
+  object-fit: contain;
+  font-family: Poppins;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  width: 318px;
+  margin-left: 23px;
+}
+
+.card-text-bir {
+  width: 280px;
+  height: 105px;
+  object-fit: contain;
+  font-family: Poppins;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  width: 318px;
+  margin-left: 23px;
+  margin-top: 48px;
 }
 
 .card-start {
@@ -23,6 +43,11 @@
   background-color: #f2f1f0;
   margin-left: 149px;
   margin-bottom: 85px;
+  margin-top: 86px;
+}
+
+.card-body {
+  padding-top: 10px;
 }
 
 .form-start {
@@ -46,4 +71,112 @@
 
 .start-form {
   padding-bottom: 64px;
+}
+
+.card-kun {
+  width: 67px;
+  height: 75px;
+  object-fit: contain;
+}
+
+.body-kun {
+  width: 362px;
+  height: 262px;
+  object-fit: contain;
+  border-radius: 8px;
+  background-color: #f1c516;
+}
+
+.title-kun {
+  width: 184px;
+  height: 33px;
+  object-fit: contain;
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.46;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000000;
+  margin-left: 91px;
+  margin-top: 70px;
+}
+
+.title-mer {
+  width: 184px;
+  height: 33px;
+  object-fit: contain;
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.46;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  margin-left: 91px;
+  margin-top: 70px;
+}
+
+.title-bir {
+  width: 255px;
+  height: 33px;
+  object-fit: contain;
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.46;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  margin-left: 48px;
+  margin-top: 40px;
+}
+
+.icon-card {
+  width: 67px;
+  height: 75px;
+  object-fit: contain;
+  position: absolute;
+  margin-left: 150px;
+  margin-top: -46px;
+}
+
+.icon-card2 {
+  width: 67px;
+  height: 75px;
+  object-fit: contain;
+  position: absolute;
+  margin-left: 150px;
+  margin-top: -46px;
+}
+
+.icon-card3 {
+  width: 67px;
+  height: 75px;
+  object-fit: contain;
+  position: absolute;
+  margin-left: 150px;
+  margin-top: -46px;
+}
+
+.body-mer {
+  width: 362px;
+  height: 262px;
+  object-fit: contain;
+  border-radius: 8px;
+  background-color: #eb482c;
+}
+
+.body-bir {
+  width: 362px;
+  height: 262px;
+  object-fit: contain;
+  border-radius: 8px;
+  background-color: #4e73b8;
 }
