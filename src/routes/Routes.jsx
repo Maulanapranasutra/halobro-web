@@ -25,6 +25,11 @@ const Login = Loadable({
   loading
 });
 
+const Contact = Loadable({
+  loader: () => import('../containers/contact/Contact'),
+  loading
+});
+
 // const About = Loadable({
 //   loader: () => import('../containers/about/About'),
 //   loading
@@ -58,6 +63,11 @@ export default [
       {
         component: Login,
         path: '/login',
+        exact: true
+      },
+      {
+        component: Contact,
+        path: '/contact',
         exact: true
       }
       // {

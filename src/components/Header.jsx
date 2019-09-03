@@ -59,10 +59,10 @@ export default class Example extends React.Component {
                   <NavLink to="/">Pricing</NavLink>
                 </NavItem>
                 <NavItem style={{ paddingRight: '80px' }}>
-                  <NavLink to="/careers">Contact Us</NavLink>
+                  <NavLink to="/contact">Contact Us</NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink to="/contact">Get Started</NavLink>
+                  <NavLink to="/">Get Started</NavLink>
                 </NavItem>
                 <button className="button-login btn">
                   <NavLink className="nav-button" to="/Login">
