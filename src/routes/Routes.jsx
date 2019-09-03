@@ -20,6 +20,11 @@ const Home = Loadable({
   loading
 });
 
+const Login = Loadable({
+  loader: () => import('../containers/login/Login'),
+  loading
+});
+
 // const About = Loadable({
 //   loader: () => import('../containers/about/About'),
 //   loading
@@ -49,8 +54,12 @@ export default [
         component: Home,
         path: '/',
         exact: true
+      },
+      {
+        component: Login,
+        path: '/login',
+        exact: true
       }
-
       // {
       //   component: About,
       //   path: '/about',
