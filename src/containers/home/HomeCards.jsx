@@ -9,10 +9,10 @@ class HomeCards extends Component {
       <div>
         <section className="page-card">
           <div className="container-fluid">
-            <div className="row">
+            <div className="row all-card">
               <div
                 className="card text-white bg-warning mb-3"
-                style={{ maxWidth: '18rem', marginLeft: '200px' }}
+                style={{ marginLeft: '50px' }}
               >
                 <div className="card-body body-kun">
                   <img
@@ -30,7 +30,7 @@ class HomeCards extends Component {
               </div>
               <div
                 className="card text-white bg-danger mb-3"
-                style={{ maxWidth: '18rem', marginLeft: '200px' }}
+                style={{ marginLeft: '29px' }}
               >
                 <div className="card-body body-mer">
                   <img
@@ -47,7 +47,7 @@ class HomeCards extends Component {
               </div>
               <div
                 className="card text-white bg-primary mb-3"
-                style={{ maxWidth: '18rem', marginLeft: '200px' }}
+                style={{ marginLeft: '29px' }}
               >
                 <div className="card-body body-bir">
                   <img
