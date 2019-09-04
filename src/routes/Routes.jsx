@@ -24,11 +24,10 @@ const Login = Loadable({
   loader: () => import('../containers/login/Login'),
   loading
 });
-
-// const About = Loadable({
-//   loader: () => import('../containers/about/About'),
-//   loading
-// });
+const About = Loadable({
+  loader: () => import('../containers/about/About'),
+  loading
+});
 
 // const NotFound = Loadable({
 //   loader: () => import('../containers/404/404'),
@@ -59,12 +58,12 @@ export default [
         component: Login,
         path: '/login',
         exact: true
+      },
+      {
+        component: About,
+        path: '/about',
+        exact: true
       }
-      // {
-      //   component: About,
-      //   path: '/about',
-      //   exact: true
-      // },
       // {
       //   component: Blog,
       //   path: '/blog',

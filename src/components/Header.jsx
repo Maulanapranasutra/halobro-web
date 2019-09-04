@@ -1,3 +1,4 @@
+/* eslint-disable react/no-access-state-in-setstate */
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
 import {
@@ -53,16 +54,16 @@ export default class Example extends React.Component {
                 style={{ paddingRight: '143px' }}
               >
                 <NavItem style={{ paddingRight: '80px' }}>
-                  <NavLink to="/">About Us</NavLink>
+                  <NavLink to="/about">About Us</NavLink>
                 </NavItem>
                 <NavItem style={{ paddingRight: '80px' }}>
                   <NavLink to="/">Pricing</NavLink>
                 </NavItem>
                 <NavItem style={{ paddingRight: '80px' }}>
-                  <NavLink to="/careers">Contact Us</NavLink>
+                  <NavLink to="/">Contact Us</NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink to="/contact">Get Started</NavLink>
+                  <NavLink to="/">Get Started</NavLink>
                 </NavItem>
                 <button className="button-login btn">
                   <NavLink className="nav-button" to="/Login">

@@ -1,5 +1,4 @@
 .card-text {
-  width: 280px;
   height: 105px;
   object-fit: contain;
   font-family: Poppins;
@@ -8,6 +7,23 @@
   text-align: center;
   width: 318px;
   margin-left: 23px;
+}
+
+.card-h2 {
+  width: 651px;
+  height: 49px;
+  object-fit: contain;
+  font-family: Poppins;
+  font-size: 35px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.51;
+  letter-spacing: normal;
+  text-align: left;
+  color: #1a1919;
+  margin-left: 246px;
+  margin-top: 58px;
 }
 
 .card-text-mer {
