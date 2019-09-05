@@ -1,11 +1,10 @@
 import React from 'react';
 import LoginHome from './LoginHome';
 
-
 const Home = () => {
   return (
     <div>
-        <LoginHome />
+      <LoginHome />
     </div>
   );
 };

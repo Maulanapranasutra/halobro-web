@@ -3,7 +3,7 @@ import React from 'react';
 const AboutHeads = () => {
   return (
     <div>
-      <section className="page-client" id="services">
+      <section className="page-heads" id="services">
         <div className="container" style={{ marginTop: '-87px' }}>
           <h2 className="p-support text-center mt-0 ">Our Heads</h2>
           <p className="text-head">

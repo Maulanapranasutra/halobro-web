@@ -60,7 +60,7 @@ export default class Example extends React.Component {
                   <NavLink to="/">Pricing</NavLink>
                 </NavItem>
                 <NavItem style={{ paddingRight: '80px' }}>
-                  <NavLink to="/">Contact Us</NavLink>
+                  <NavLink to="/contact">Contact Us</NavLink>
                 </NavItem>
                 <NavItem>
                   <NavLink to="/">Get Started</NavLink>
