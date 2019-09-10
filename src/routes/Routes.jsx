@@ -32,6 +32,10 @@ const Contact = Loadable({
   loader: () => import('../containers/contact/Contact'),
   loading
 });
+const Pricing = Loadable({
+  loader: () => import('../containers/pricing/Pricing'),
+  loading
+});
 
 // const About = Loadable({
 //   loader: () => import('../containers/about/About'),
@@ -76,6 +80,11 @@ export default [
       {
         component: Contact,
         path: '/contact',
+        exact: true
+      },
+      {
+        component: Pricing,
+        path: '/pricing',
         exact: true
       }
       // {
